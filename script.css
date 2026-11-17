@@ -1,0 +1,199 @@
+/* * {
+  font-family: "Titan One", sans-serif;
+} */
+
+body {
+  background-color: Ivory;
+  background-image: url("bk.jpg");
+  backdrop-filter: blur(25px);
+}
+
+
+.word {
+  font-size: 15px;
+}
+
+a {
+  font-family: "VT323", monospace;
+  font-size: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 80px;
+  font-family: "VT323", monospace;
+}
+
+h3 {
+  font-family: "VT323", monospace;
+  font-size: 30px;
+}
+
+p {
+  font-family: "Mali", cursive;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+
+}
+
+ul {
+  list-style: none;
+}
+
+p1 {
+  font-family: "Mali", cursive;
+  font-size: 15px;
+}
+
+li {
+  font-family: "Mali", cursive;
+  font-size: 15px;
+}
+
+
+
+
+.titan-one-regular {
+  font-family: "Titan One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.mali-semibold-italic {
+  font-family: "Mali", cursive;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.vt323-regular {
+  font-family: "VT323", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+
+.box {
+  background-color: white;
+  width: 150px;
+  padding: 3px;
+  border: 2px DeepSkyBlue solid;
+  margin: 3px;
+}
+
+.boxbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: Maroon;
+  margin-top: 50px;
+}
+
+.box3 {
+  border: 2px solid;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+}
+
+.tab {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 2px solid Maroon;
+  margin-bottom: 50px;
+  padding-inline: 60px;
+}
+
+.portbox2 {
+  display: flex;
+  gap: 20px;
+}
+
+.porttext {
+  font-size: 50px;
+  color: MidnightBlue;
+}
+
+
+.concon {
+    font-size: 40px;
+  color: black;
+}
+
+.portbox2text {
+  border: 2px solid;
+  color: MidnightBlue;
+  padding: 15px;
+  border-radius: 25px;
+}
+
+.bigbig {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  gap: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.biggg  {
+  display: flex;
+  width: 700px;
+  justify-content: space-around;
+}
+
+.big1 {
+  width: 500px;
+}
+
+.tact{
+  display: flex;
+  justify-content: center;
+}
+
+.pum {
+  background-color: LavenderBlush;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.contact {
+  display: flex;
+  gap: 20px;
+}
+
+.ject2 {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  align-items: stretch;
+}
+
+.ya {
+  background-color: LightYellow;
+  padding: 30px;
+  /* max-width: 50%; */
+  border-radius: 15px;
+  width: 500px;
+}
+
+.yayaya {
+  display: flex;
+  justify-content: center;
+
+}
+
+.ishover {
+  background-color: LemonChiffon;
+  transition: ease-in-out 0.3s;
+}
